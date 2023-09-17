@@ -1,0 +1,18 @@
+.transperency {
+    background: rgba(113, 127, 181, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.7px);
+-webkit-backdrop-filter: blur(3.7px);
+border: 1px solid rgba(113, 127, 181, 0.3);
+    position: absolute;
+    border: none;
+    border-radius: 137px 0 0 10px;
+    padding: 70px;
+    width: 29%;
+    height: 0px;
+    bottom: 0px;
+    top: -9px;
+    right: 0px;
+    left: 349px;
+}
