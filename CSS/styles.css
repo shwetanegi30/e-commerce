@@ -1,10 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border-line {
+    border-radius: 0 137px 10px 0;
+    background: #ffffff;
+    border:
+        solid #2DD35C 2px;
+    padding: 70px;
+    width: 30%;
+    height: 50px;
+    margin-top: 10%;
+    position: relative;
+}
+
+line {
+    height: 229px;
+    border-left: 3px solid black;
+    right: 0px;
+    bottom: 0px;
+    top: -22px;
+    left: -1px;
+    position: absolute;
+}
+
+.inner-details {
+    top: 27%;
+    left: 35%;
+    right: 0;
+    bottom: 0;
+    position: absolute
+}
+
+.heading {
+    font-weight: 500;
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+}
+
+.sub-heading {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0;
+    padding-top: 0px;
+    color: #5553B7;
+}
+
+.btn-div {
+    margin-top: 12px;
+}
+
+.btn {
+    font-weight: 600;
+    height: 36px;
+    border-radius: 50px;
+    border: none;
+    background-color: #2DD35C;
+    color: white;
+    padding: 0px 18px
+}
+
+.btn-btn {
+    border: 2px solid #5553B7;
+    font-weight: 600;
+    color: #5553B7;
+    background-color: white;
+    padding: 0px 18px;
+    height: 36px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
 .transperency {
     background: rgba(113, 127, 181, 0.24);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(3.7px);
--webkit-backdrop-filter: blur(3.7px);
-border: 1px solid rgba(113, 127, 181, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(113, 127, 181, 0.3);
     position: absolute;
     border: none;
     border-radius: 137px 0 0 10px;
