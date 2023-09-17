@@ -17,7 +17,7 @@
     position: relative;
 }
 
-line {
+.line {
     height: 229px;
     border-left: 3px solid black;
     right: 0px;
